@@ -1,0 +1,121 @@
+body
+{
+    background-image: url('https://source.unsplash.com/random/1600x900/?landscape');
+    font-family: 'Grape Nuts', cursive;
+}
+
+.container {
+    width: 400px;
+    margin: 20px auto;
+  }
+  .form {
+    
+    border-radius: 6px;
+    padding: 10px;
+    
+    
+  }
+  .input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    flex: 2;
+  }
+  .input:focus {
+    outline: none;
+  }
+  .add {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+  }
+  .tasks {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 20px;
+    width: 40%;
+
+  }
+  .tasks .task {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 0.5px solid #ccc;
+  }
+  .tasks .task:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .tasks .task:hover {
+    background-color: #f7f7f7;
+  }
+  .tasks .task.done {
+    opacity: 0.5;
+  }
+  .tasks .task span {
+    font-weight: bold;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+ 
+  
+  .timer {
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 20px 32px;
+    border-radius: 30px;
+    background: white;
+    position: absolute;
+    top: 4px;
+    margin-left: 850px ;
+   
+    
+  }
+  
+  .timer__part {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .timer__btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background: #8208e6;
+    cursor: pointer;
+  }
+  
+  .timer__btn--start {
+    background: #00b84c;
+  }
+  
+  .timer__btn--stop {
+    background: #ff0256;
+  }
+
+  .card
+  {
+      margin-left: 850px;
+      position: absolute;
+      display: inline-block;
+  }
+
+
